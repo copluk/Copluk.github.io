@@ -26,12 +26,12 @@ version: 1.0.0
 author:
   name: Copluk
   description: 個人介紹
-  gravatar:  # md5 hash of your email address
+  gravatar: c3f92aa6c29c353ebe256b670e5b9241
   contact:
-    linkedin:  https://www.linkedin.com/
-    github:    https://github.com/
+    linkedin:  https://www.linkedin.com/in/Copluk
+    github:    https://github.com/copluk
     facebook:  https://www.facebook.com/loki2085
-    email:     http://www.google.com/
+    email:     c.xu2085@gmail.com
 
 # Navigation (2nd level links supported)
 nav:
@@ -43,7 +43,7 @@ nav:
     - { Tags: '/blog/tags/' }
   About:          
     - '/about/'
-    
+
   # Github Project: 
   #   - 'http://copluk.github.io/'
 
