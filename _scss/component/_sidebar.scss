@@ -101,7 +101,7 @@ a.sidebar-nav-item:focus {
 }
 
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
-.sidebar-toggle {
+.sidebar-toggle:before {
   position: absolute;
   top:  .8rem;
   @if $reverse-layout {
@@ -119,17 +119,11 @@ a.sidebar-nav-item:focus {
   cursor: pointer;
 }
 
-.sidebar-toggle:before {
-  display: inline-block;
-  width: 1rem;
-  height: .75rem;
-  content: "";
-  @include background-image(linear-gradient(to bottom, $theme-color-dark, $theme-color-dark 20%, $white 20%, $white 40%, $theme-color-dark 40%, $theme-color-dark 60%, $white 60%, $white 80%, $theme-color-dark 80%, $theme-color-dark 100%));
-}
 
 .sidebar-toggle:active,
 #sidebar-checkbox:focus ~ .sidebar-toggle,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
+display: none;
   color: $white;
   background-color: $theme-color;
 }
