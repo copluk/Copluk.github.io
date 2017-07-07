@@ -1,6 +1,6 @@
 # Site Info
 title: Copluk
-tagline: 'A Jekyll theme based on Lanyon'
+tagline: 'Sub Title'
 description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://codinfox.github.io" target="_blank">@codinfox</a>.'
 baseurl: ""
 url: http://copluk.github.io
@@ -43,16 +43,13 @@ nav:
     - { Tags: '/blog/tags/' }
   About:          
     - '/about/'
-  Github Project: 
-    - 'http://copluk.github.io/'
+    
+  # Github Project: 
+  #   - 'http://copluk.github.io/'
 
 # Where are tags and categories displayed
 tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
-
-hero:
-  image: /public/img/we_will_be_giants_by_yalestewart.jpg
-  caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
 
 # Puglins
 mathjax: false # whether support mathjax
