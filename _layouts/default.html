@@ -33,7 +33,8 @@
         var toggle = document.querySelector('.sidebar-toggle');
         var sidebar = document.querySelector('#sidebar');
         var checkbox = document.querySelector('#sidebar-checkbox');
-        
+
+
         document.addEventListener('click', function(e) {
           var target = e.target;
 
@@ -44,7 +45,7 @@
             /* click outside the sidebar when sidebar is open */
             checkbox.checked = false;
           }
-        }, false);
+        }, true);
       })(document);
     </script>
     {% if site.google_analytics_token %}
