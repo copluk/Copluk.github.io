@@ -2,8 +2,8 @@
 title: Copluk
 tagline: 'Life & Code'
 description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://codinfox.github.io" target="_blank">@codinfox</a>.'
-baseurl: "/Copluk"
-url: http://copluk.github.io
+baseurl: ""
+url: https://copluk.github.io
 logo: '/public/logo.png'
 
 # Site configurations
