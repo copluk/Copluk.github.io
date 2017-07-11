@@ -1,10 +1,10 @@
 # Site Info
 title: Copluk
-tagline: 'Sub Title'
+tagline: 'Life & Code'
 description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://codinfox.github.io" target="_blank">@codinfox</a>.'
-baseurl: ""
+baseurl: "/Copluk"
 url: http://copluk.github.io
-# logo: '/public/logo.png'
+logo: '/public/logo.png'
 
 # Site configurations
 gem: 'jekyll-paginate'
@@ -25,7 +25,7 @@ version: 1.0.0
 # About/contact
 author:
   name: Copluk
-  description: 個人介紹
+  description: 知識沒有盡頭的軟體工程
   gravatar: c3f92aa6c29c353ebe256b670e5b9241
   contact:
     linkedin:  https://www.linkedin.com/in/Copluk
@@ -52,7 +52,7 @@ tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
 
 # Puglins
-mathjax: false # whether support mathjax
+mathjax: true # whether support mathjax
 # google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
 # disqus_short_name: 'your_short_name' # leave blank if you don't want disqus
 
