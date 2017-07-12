@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android Local Notification
+title: Android Remote Notification
 category: Android
 tags: [Android, Notification]
 ---
@@ -63,9 +63,10 @@ compile 'com.google.firebase:firebase-messaging:10.0.0'
 在進行推播時，需要設定發送的PushToken以及推播的內容。  
 
 ## PushToken  
-registration_ids :  
+### registration_ids :  
 可設定多筆PushToken，一次上限1000筆。  
-to : 可設定單筆PushToken，與registration_ids只與設定其中一個。  
+### to :  
+可設定單筆PushToken，與registration_ids只與設定其中一個。  
 
 ## 推播內容  
 ### notification :  
