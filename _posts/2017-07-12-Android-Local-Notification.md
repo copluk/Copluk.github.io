@@ -3,6 +3,7 @@ layout: post
 title: Android Local Notification
 category: Android
 tags: [Android, Notification]
+description: 介紹手機端通知實作方法。
 ---
 
 # 前言

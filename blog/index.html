@@ -20,9 +20,9 @@ title: Blog
     {% endif %}
 
   <!-- 內容 -->
-    <!-- <article>
-      {{ post.excerpt | markdownify }}
-    <article> -->
+    <article>
+      {% if page.description %}<meta name="description" content="{{ page.description}}">{% endif %}
+    <article>
     <div class="post-more">
       {% if site.disqus_short_name %}
       <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread"> <i class="fa fa-comments" aria-hidden="true"></i>Comment</a>&nbsp;
