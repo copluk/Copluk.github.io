@@ -25,7 +25,7 @@ version: 1.0.0
 # About/contact
 author:
   name: Copluk
-  description: 知識沒有盡頭的軟體工程
+  description: 知識沒有盡頭的軟體生活
   gravatar: c3f92aa6c29c353ebe256b670e5b9241
   contact:
     linkedin:  https://www.linkedin.com/in/Copluk
@@ -35,14 +35,14 @@ author:
 
 # Navigation (2nd level links supported)
 nav:
-  Home:           
+  About:           
     - '/'
   Blog:           
     - '/blog/'
     - { Categories: '/blog/categories/' }
     - { Tags: '/blog/tags/' }
-  About:          
-    - '/about/'
+  # About:          
+  #   - '/about/'
 
   # Github Project: 
   #   - 'http://copluk.github.io/'
@@ -53,6 +53,6 @@ category_page: '/blog/categories/'
 
 # Puglins
 mathjax: true # whether support mathjax
-# google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
-# disqus_short_name: 'your_short_name' # leave blank if you don't want disqus
+google_analytics_token: 'UA-102429388-1' # leave blank if you don't want google analytics
+disqus_short_name: 'coplukgitpage' # leave blank if you don't want disqus
 
