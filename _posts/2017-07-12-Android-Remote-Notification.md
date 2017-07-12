@@ -2,12 +2,12 @@
 layout: post
 title: Android Remote Notification
 category: Android
-tags: [Android, Notification]
+tags: [Android, Notification, Cloud Message , FCM]
 ---
 # 前言  
 
 手機端的通知有兩種，一種是本地端發出的通知，  
-另一種是由伺服器發出的通知\(以下簡稱為推播  
+另一種是由伺服器發出的通知\(以下簡稱為推播\)  
 
 本地端的通知，比較即時，不需等待，  
 但是難以控制該發送的時間。  
@@ -21,7 +21,7 @@ tags: [Android, Notification]
 所以推播本身並不保證推送的成功與時間。  
 
 本文會介紹實作推播功能時，  
-Android手機端應配合的設定，  
+Android手機端應配合的設定，請見[Local Notification](/android/2017/07/12/Android-Local-Notification/)  
 Server部份的設定，  
 以及手機端幾種可行的作法。[^3]  
 
