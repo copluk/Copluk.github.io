@@ -1,7 +1,7 @@
 # Site Info
 title: Copluk
 tagline: 'Life & Code'
-description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://codinfox.github.io" target="_blank">@codinfox</a>.'
+description: ''
 baseurl: ""
 url: https://copluk.github.io
 logo: '/public/logo.png'
@@ -53,7 +53,7 @@ tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
 
 # Puglins
-mathjax: true # whether support mathjax
+mathjax: false # whether support mathjax
 google_analytics_token: 'UA-102429388-1' # leave blank if you don't want google analytics
 disqus_short_name: 'coplukgitpage' # leave blank if you don't want disqus
 
