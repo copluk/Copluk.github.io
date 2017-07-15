@@ -16,16 +16,12 @@
 /* Style and "hide" the sidebar */
 .sidebar {
   display: none;
-  position: fixed;
-  top: 0;
-  bottom: 0;
   width: 14rem;
-  visibility: visible;
-  // overflow-y: auto;
+  overflow-y: auto;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
-  @include transition(all .3s ease-in-out);
+  // @include transition(all .3s ease-in-out);
 
   @if $reverse-layout {
     left: auto;
@@ -42,15 +38,6 @@
   }
 }
 
-@media (min-width: 30em) {
-  .sidebar {
-    display: block;
-    font-size: .75rem; /* 14px */
-  }
-  .wrap {
-  @include transform(translateX(if($overlay-sidebar,0,if($reverse-layout, -14rem, 14rem))));
-  }
-}
 
 @media print {
   .sidebar {
@@ -100,6 +87,10 @@ a.sidebar-nav-item:focus {
 }
 
 @media (min-width: 48em) {
+  .sidebar {
+    display: table-cell;
+    font-size: .75rem; /* 14px */
+  }
   .sidebar-item {
     padding: 1.5rem;
   }

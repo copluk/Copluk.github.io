@@ -7,8 +7,9 @@
  */
 
 .wrap {
-  position: relative;
-  width: 100%;
+  display: table-cell;
+  vertical-align: top;
+  // width: 100%;
 }
 
 
@@ -28,7 +29,7 @@
   .container {
     max-width: 32rem;
     &.content {
-      padding-top: 6.5rem;
+      // padding-top: 6.5rem;
     }
   }
 }

@@ -32,10 +32,14 @@ $font-sans: "PT Sans", Helvetica, Arial, sans-serif;
 $font-font-awesome: FontAwesome;
 
 .optionRwd{
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
     text-align: center;
 }
-
-@media (min-width:30em){
+body{
+    display: table;
+    width:100%;
+}
+@media (min-width:48em){
     .optionRwd{
     display: none;
 }
