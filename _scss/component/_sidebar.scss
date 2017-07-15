@@ -16,6 +16,8 @@
 /* Style and "hide" the sidebar */
 .sidebar {
   display: none;
+  position: fixed;
+  height: 100%;
   width: 14rem;
   overflow-y: auto;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
@@ -87,6 +89,15 @@ a.sidebar-nav-item:focus {
 }
 
 @media (min-width: 48em) {
+
+  .wrap{
+    padding-left: 14rem;
+  }
+
+  .masthead{
+    position: static;
+  }
+
   .sidebar {
     display: table-cell;
     font-size: .75rem; /* 14px */
