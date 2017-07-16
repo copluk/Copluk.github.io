@@ -2,7 +2,7 @@
 layout: post
 title: Android Remote Notification
 category: Android
-tags: [Android, Notification, Cloud Message , FCM]
+tags: [Android, Notification 通知, Cloud Message 推播, FCM]
 description: 介紹FCM推播設定。
 ---
 # 前言  
