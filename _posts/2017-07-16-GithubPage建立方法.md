@@ -36,4 +36,4 @@ Mac的用戶可以用 homebrew[^1] 來更新。
 [^1]:  [Mac 程式版控套件 - homebrew](https://brew.sh/index_zh-tw.html)  
 
 
-[jekyll 樣版庫](http://jekyllthemes.org)  
+[^2]:  [jekyll 樣版庫](http://jekyllthemes.org)  
