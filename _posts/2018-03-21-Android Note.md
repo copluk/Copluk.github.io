@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android Note
+title: Android 筆記
 category: Android
 tags: [Android, Layout]
 description: 不常用但是時不時會用到的筆記
