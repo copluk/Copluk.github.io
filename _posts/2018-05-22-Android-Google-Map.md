@@ -59,8 +59,7 @@ public class MapDirectionsActivity extends FragmentActivity implements OnMapRead
 	protected void onCreate(@Nullable final Bundle savedInstanceState) {
 		...
 		// Obtain the SupportMapFragment and get notified when the map is ready to be used.
-			SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
-					.findFragmentById(R.id.map);
+			SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
 			mapFragment.getMapAsync(this);
 		...
 	}
@@ -78,15 +77,15 @@ public class MapDirectionsActivity extends FragmentActivity implements OnMapRead
 所以接著讓我們加上
 
 ```java
-	@Override
-		public void onMapReady(GoogleMap googleMap) {
-			...
-			LatLng startLatLng = new LatLng(25.0470289, 121.515987);
-			mMap.addMarker(new MarkerOptions().position(startLatLng).title("start"));
-			mMap.moveCamera(CameraUpdateFactory.zoomTo(14));
-			mMap.moveCamera(CameraUpdateFactory.newLatLng(startLatLng));
-			...
-		}
+@Override
+public void onMapReady(GoogleMap googleMap) {
+	...
+	LatLng startLatLng = new LatLng(25.0470289, 121.515987);
+	mMap.addMarker(new MarkerOptions().position(startLatLng).title("start"));
+	mMap.moveCamera(CameraUpdateFactory.zoomTo(14));
+	mMap.moveCamera(CameraUpdateFactory.newLatLng(startLatLng));
+	...
+	}
 ```
 
 到這裡會得到圖標定位在台北車站，  
