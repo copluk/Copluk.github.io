@@ -59,8 +59,10 @@ public class MapDirectionsActivity extends FragmentActivity implements OnMapRead
 	protected void onCreate(@Nullable final Bundle savedInstanceState) {
 		...
 		// Obtain the SupportMapFragment and get notified when the map is ready to be used.
-			SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
-			mapFragment.getMapAsync(this);
+		SupportMapFragment mapFragment = 
+		(SupportMapFragment) 
+		getSupportFragmentManager().findFragmentById(R.id.map);
+		mapFragment.getMapAsync(this);
 		...
 	}
 
