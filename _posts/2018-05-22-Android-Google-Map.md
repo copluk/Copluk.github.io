@@ -104,8 +104,14 @@ public void onMapReady(GoogleMap googleMap) {
 
 # Marker Click
 
-寫到有點發懶，我們直接上code..
-新增數個Marker，並利用marker的tag讓點擊時可以取得資料。
+寫到有點發懶，我們直接上code..  
+下面的程式裡會新增數個Marker，  
+並利用marker的tag讓點擊時可以取得資料，  
+
+個人覺得很有趣的點是...
+當Map物件使用addMarker(markerOptions)時，  
+會一併回傳Marker物件，  
+所以如果想對Marker做任何操作，必須在這時候動作。
 ```java
 
 public class calssName extends Activity implements OnMapReadyCallback, GoogleMap.OnMarkerClickListener {
@@ -114,35 +120,35 @@ public class calssName extends Activity implements OnMapReadyCallback, GoogleMap
 @Override
 public boolean onMarkerClick(Marker marker) {
 
-	StoreItem storeItem = (StoreItem) marker.getTag();
+	Data data = (Data) marker.getTag();
 	mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(
-			new LatLng(Double.valueOf(storeItem.getLAT()), Double.valueOf(storeItem.getLON())),
+			new LatLng(Double.valueOf(data.getLAT()),
+			Double.valueOf(data.getLON())),
 			14f));
-	viewScrollBase.setVisibility(View.GONE);
-
-	isSingleMarkerClick = false;
+	..
+	..
 
 	return true;
 }
 
 private void updateMapsMark() {
 	mMap.clear();
-	for (StoreItem storeItem : mStoreItem) {
+	for (Data data : mData) {
 
-		LatLng latLng = new LatLng(Double.valueOf(storeItem.getLAT()), Double.valueOf(storeItem.getLON()));
+		LatLng latLng = new LatLng(Double.valueOf(data.getLAT()), Double.valueOf(data.getLON()));
 
 		MarkerOptions markerOptions =
 				new MarkerOptions()
-						.title(storeItem.getTEL())
+						.title(data.getTEL())
 						.position(latLng)
 						.icon(BitmapDescriptorFactory.fromResource(R.drawable.icon_location_map));
 
 		Marker marker = mMap.addMarker(markerOptions);
-		marker.setTag(storeItem);
+		marker.setTag(data);
 	}
 
 	CameraUpdate cuf = CameraUpdateFactory.newLatLngZoom(
-			new LatLng(Double.valueOf(mStoreItem.get(0).getLAT()), Double.valueOf(mStoreItem.get(0).getLON())),
+			new LatLng(Double.valueOf(mData.get(0).getLAT()), Double.valueOf(mData.get(0).getLON())),
 			14f);
 	mMap.animateCamera(cuf);
 }
@@ -151,7 +157,6 @@ private void updateMapsMark() {
 ```
 
 # 未完待續--
-## Marker Click
 ## polyline & Click
 ## Directions API & show
 
