@@ -102,6 +102,54 @@ public void onMapReady(GoogleMap googleMap) {
    街道  		| 15
    建築物  		| 20
 
+# Marker Click
+
+寫到有點發懶，我們直接上code..
+新增數個Marker，並利用marker的tag讓點擊時可以取得資料。
+```java
+
+public class calssName extends Activity implements OnMapReadyCallback, GoogleMap.OnMarkerClickListener {
+	...
+
+@Override
+public boolean onMarkerClick(Marker marker) {
+
+	StoreItem storeItem = (StoreItem) marker.getTag();
+	mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(
+			new LatLng(Double.valueOf(storeItem.getLAT()), Double.valueOf(storeItem.getLON())),
+			14f));
+	viewScrollBase.setVisibility(View.GONE);
+
+	isSingleMarkerClick = false;
+
+	return true;
+}
+
+private void updateMapsMark() {
+	mMap.clear();
+	for (StoreItem storeItem : mStoreItem) {
+
+		LatLng latLng = new LatLng(Double.valueOf(storeItem.getLAT()), Double.valueOf(storeItem.getLON()));
+
+		MarkerOptions markerOptions =
+				new MarkerOptions()
+						.title(storeItem.getTEL())
+						.position(latLng)
+						.icon(BitmapDescriptorFactory.fromResource(R.drawable.icon_location_map));
+
+		Marker marker = mMap.addMarker(markerOptions);
+		marker.setTag(storeItem);
+	}
+
+	CameraUpdate cuf = CameraUpdateFactory.newLatLngZoom(
+			new LatLng(Double.valueOf(mStoreItem.get(0).getLAT()), Double.valueOf(mStoreItem.get(0).getLON())),
+			14f);
+	mMap.animateCamera(cuf);
+}
+...
+}
+```
+
 # 未完待續--
 ## Marker Click
 ## polyline & Click
