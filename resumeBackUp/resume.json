@@ -6,7 +6,7 @@
     "email": "",
     "phone": "",
     "website": "https://copluk.github.io",
-    "summary": ["四年資訊相關開發經驗，三年Android，一年後端，",
+    "summary": ["數年資訊相關開發經驗，多年Android，一年後端，",
       "豐富的團隊開發經驗，亦可獨立開發。",
       "負責畫面開發、API串接、OpenSource研究與使用、需求確認等……",
       "並了解部份後端API及iOS開發情境，以利於團隊開發。"],
@@ -21,10 +21,22 @@
   },
   "work": [
     {
+      "company": "QStarz",
+      "position": "Android Engineer",
+      "website": "",
+      "startDate": "2019-03",
+      "summary": "負責Android App開發、維護、上架",
+      "highlights": [
+        "BLE串接、Wifi傳輸、ffmpeg影像合成",
+        "溝通需求、架構實作、版本發佈"
+      ]
+    },
+    {
       "company": "MojoDomo",
       "position": "Android Engineer",
       "website": "",
       "startDate": "2018-07",
+      "endDate": "2019-02",
       "summary": "負責Android App專案實作",
       "highlights": [
         "溝通需求、架構實作",
@@ -63,10 +75,10 @@
       "name": "Android",
       "level": "",
       "keywords": [
-        "Java",
         "Kotlin",
-        "RxJava",
-        "RESTful Api"
+        "Java",
+        "RESTful Api",
+        "RxJava"
       ]
     },
     {
@@ -75,18 +87,17 @@
       "keywords": [
         "Git",
         "SOLID Principle",
-        "OOP",
-        "Http"
+        "OOP"
       ]
     },
     {
       "name": "Database",
       "level": "",
       "keywords": [
+        "Room",
         "MsSQL",
         "MySQL",
-        "Sqlite",
-        "Realm"
+        "Sqlite"
       ]
     },
     {
@@ -94,7 +105,6 @@
       "level": "",
       "keywords": [
         "FireBase",
-        "Fabric",
         "Postman"
       ]
     },
@@ -104,12 +114,25 @@
       "keywords": [
         "Android",
         "macOS",
-        "iOS",
-        "Windows"
+        "iOS"
       ]
     }
   ],
   "volunteer": [
+    {
+      "organization": "Qstarz QRacing",
+      "position": "Qstarz",
+      "website": "",
+      "startDate": "2019-03",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "修正 ffmpeg 合成流程，節省40%合成時間",
+        "修正 BLE 接收流程，避免30%資料流失",
+        "Wi‑Fi Direct實作",
+        ""
+      ]
+    },
     {
       "organization": "MojoDomo Android 相關專案開發",
       "position": "MojoDomo",
