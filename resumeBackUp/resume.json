@@ -1,0 +1,257 @@
+{
+  "basics": {
+    "name": "許慎文 / Copluk Hsu",
+    "label": "Android Engineer",
+    "picture": "",
+    "email": "",
+    "phone": "",
+    "website": "https://copluk.github.io",
+    "summary": ["四年資訊相關開發經驗，三年Android，一年後端，",
+      "豐富的團隊開發經驗，亦可獨立開發。",
+      "負責畫面開發、API串接、OpenSource研究與使用、需求確認等……",
+      "並了解部份後端API及iOS開發情境，以利於團隊開發。"],
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": ""
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "MojoDomo",
+      "position": "Android Engineer",
+      "website": "",
+      "startDate": "2018-07",
+      "summary": "負責Android App專案實作",
+      "highlights": [
+        "溝通需求、架構實作",
+        "APP測試、版本發佈"
+      ]
+    },
+    {
+      "company": "Thinkpower-info",
+      "position": "Android Engineer",
+      "website": "",
+      "startDate": "2016-06",
+      "endDate": "2018-07",
+      "summary": "負責Android App專案實作以及與客戶溝通需求",
+      "highlights": [
+        "主要開發語言為Java",
+        "熟悉APK版本發佈、Google Play上架流程",
+        "第三方元件使用測試"
+      ]
+    },
+    {
+      "company": "V7-idea",
+      "position": "Backend Engineer",
+      "website": "",
+      "startDate": "2015-02",
+      "endDate": "2016-02",
+      "summary": "負責後端程式開發，需求討論與DB建立",
+      "highlights": [
+        "主要開發語言為Asp.net & MsSQL",
+        "參與需求討論、DB建立",
+        "與App工程師討論規格並實作Api"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Android",
+      "level": "",
+      "keywords": [
+        "Java",
+        "Kotlin",
+        "RxJava",
+        "RESTful Api"
+      ]
+    },
+    {
+      "name": "Other Skills",
+      "level": "",
+      "keywords": [
+        "Git",
+        "SOLID Principle",
+        "OOP",
+        "Http"
+      ]
+    },
+    {
+      "name": "Database",
+      "level": "",
+      "keywords": [
+        "MsSQL",
+        "MySQL",
+        "Sqlite",
+        "Realm"
+      ]
+    },
+    {
+      "name": "Test Tool",
+      "level": "",
+      "keywords": [
+        "FireBase",
+        "Fabric",
+        "Postman"
+      ]
+    },
+    {
+      "name": "OS",
+      "level": "",
+      "keywords": [
+        "Android",
+        "macOS",
+        "iOS",
+        "Windows"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "MojoDomo Android 相關專案開發",
+      "position": "MojoDomo",
+      "website": "",
+      "startDate": "2018-07",
+      "endDate": "2018-12",
+      "summary": "條碼掃描結帳、個人資訊顯示",
+      "highlights": [
+        "擔任角色：PG",
+        "執行工作：App功能實作、APP畫面實作、API串接、架構設計",
+        "使用 Xamarin Android 開發",
+        "實作QRcode掃描元件",
+        "客製化UI元件"
+      ]
+    },
+    {
+      "organization": "中租迪和 相關專案開發",
+      "position": "Thinkpower-info",
+      "website": "",
+      "startDate": "2018-02",
+      "endDate": "2018-07",
+      "summary": "提供會員消費資訊、條碼掃描結帳",
+      "highlights": [
+        "擔任角色：PG",
+        "執行工作：App功能實作、APP畫面實作、API串接、架構設計",
+        "採用Google Map SDK建立客製化地圖",
+        "實作QRcode掃描元件",
+        "使用ZXing產生QRcode、BarCode",
+        "客製化UI元件",
+        "MPAndroidChart 直條圖、圓餅圖實作",
+        "協助參與人員進行開發"
+      ]
+    },
+    {
+      "organization": "擎雷T-Security",
+      "position": "Thinkpower-info",
+      "website": "",
+      "startDate": "2017-04",
+      "endDate": "2017-11",
+      "summary": "掃描商品防偽碼辨識真偽並檢視產品進出貨履歷紀錄和會員加值活動",
+      "highlights": [
+        "擔任角色：PG",
+        "執行工作：App功能實作、APP畫面實作、API串接、APP上架",
+        "採用FB SDK實作登入功能",
+        "採用百度雲推播實作推播功能",
+        "與Server同步之多語系功能設計",
+        "採用Google Map API以及百度Map API串接地圖服務",
+        "採用SQLite建立資料庫，紀錄User掃描貨品資料",
+        "採用Fabric建立Crash Log",
+        "負責App上架送審相關事宜"
+      ]
+    },
+    {
+      "organization": "富邦人壽 夢享飛App",
+      "position": "Thinkpower-info",
+      "website": "",
+      "startDate": "2016-12",
+      "endDate": "2017-01",
+      "summary": "藉由Xamarin開發雙平台(Android、iOS)日記型APP",
+      "highlights": [
+        "擔任角色：PG",
+        "執行工作：App功能實作、APP畫面實作、API串接",
+        "採用C# & Xamarin 開發Android、iOS雙平台",
+        "聊天畫面實作",
+        "客製化相簿功能"
+      ]
+    },
+    {
+      "organization": "菁英國際 即時聊天社群",
+      "position": "Thinkpower-info",
+      "website": "",
+      "startDate": "2016-06",
+      "endDate": "2016-11",
+      "summary": "藉由SignalR(Web Socket)推送技術，讓app進行線上即時對談",
+      "highlights": [
+        "擔任角色：PG",
+        "執行工作：App功能實作、APP畫面實作、API串接",
+        "使用RecycleView實作聊天畫面",
+        "使用者需求確認"
+      ]
+    },
+    {
+      "organization": "POC Android相關程式",
+      "position": "Thinkpower-info",
+      "website": "",
+      "startDate": "2016-06",
+      "endDate": "2017-12",
+      "summary": "Android相關功能研讀、實作",
+      "highlights": [
+        "指紋解鎖、圖型解鎖",
+        "iBeacon Connect",
+        "FCM相關設定 、 Local Notification",
+        "CD/CI試作",
+        "Google Map 試作地理柵欄、測試導航功能"
+      ]
+    },
+    {
+      "organization": "智慧雲管家 推播Server建置",
+      "position": "V7-idea",
+      "website": "",
+      "startDate": "2016-01",
+      "endDate": "2016-02",
+      "summary": "開發全新系統，改善原有推播效能",
+      "highlights": [
+        "擔任角色：PG",
+        "執行工作：DB架構規劃、PHP程式開發、需求確認",
+        "優化原有推播效能",
+        "設計實作定時、定期推播功能",
+        "Server排程撰寫",
+        "後端程式上架更新"
+      ]
+    },
+    {
+      "organization": "後端服務API開發",
+      "position": "V7-idea",
+      "website": "",
+      "startDate": "2015-02",
+      "endDate": "2015-12",
+      "summary": "設計後端API資料格式，供對應APP串接使用",
+      "highlights": [
+        "擔任角色：PG",
+        "執行工作：DB架構規劃、ASP.NET程式開發、需求確認",
+        "與App工程師討論功能，設計對應資料格式",
+        "DB設計與資料串接",
+        "引入GCM、APNS推播環境",
+        "後台管理介面開發"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "文化大學",
+      "area": "資訊傳播系",
+      "studyType": "工學學士"
+    },
+    {
+      "institution": "國立台中第二高級中學"
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "languages": [],
+  "interests": [],
+  "references": []
+}
