@@ -27,7 +27,7 @@
       "startDate": "2019-03",
       "summary": "負責Android App開發、維護、上架",
       "highlights": [
-        "BLE串接、Wifi傳輸、ffmpeg影像合成",
+        "BLE串接、NDK串接、Wifi傳輸、ffmpeg影像合成",
         "溝通需求、架構實作、版本發佈"
       ]
     },
@@ -77,8 +77,9 @@
       "keywords": [
         "Kotlin",
         "Java",
-        "RESTful Api",
-        "RxJava"
+        "RESTful API",
+        "RxJava",
+        "Coroutine"
       ]
     },
     {
@@ -127,10 +128,11 @@
       "endDate": "",
       "summary": "",
       "highlights": [
+        "導入Kotlin、Jetpack",
         "修正 ffmpeg 合成流程，節省40%合成時間",
         "修正 BLE 接收流程，避免30%資料流失",
         "Wi‑Fi Direct實作",
-        ""
+        "NDK串接"
       ]
     },
     {
